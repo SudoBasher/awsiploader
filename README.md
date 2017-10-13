@@ -9,9 +9,9 @@ Run these two commands:
 * cp config_credentials.py config_credentials.local.py
 * cp config_general.py config_general.local.py
 
-Then configure these two file:
+Then configure those two files.
 
-* config_credentials.local.py
+### config_credentials.local.py
 
 ```
 aws_environments['ca'] = { 'AWS_ACCESS_KEY_ID':'blah',
@@ -22,7 +22,7 @@ aws_environments['ca'] = { 'AWS_ACCESS_KEY_ID':'blah',
 
 Add an aws_environment array item for each of the AWS data centers you need to work with. IE: California, N. Virginia, and Frankfurt. The key names (IE: ca, nv, fr) will be referenced in `config_general.local.py`. Enter your aws key ids, secret access keys, and region associated with each AWS data center.
 
-* config_general.local.py
+### config_general.local.py
 
 ```
 aws_targets = ( { 'Environment':'California Development',
