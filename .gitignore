@@ -4,3 +4,7 @@ config_credentials_local\.py
 config_general_local\.py
 
 snippets\.py
+
+config_general\.local\.py
+
+config_credentials\.local\.py

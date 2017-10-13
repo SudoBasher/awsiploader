@@ -6,8 +6,8 @@ import os
 
 ## load config
 execfile("functions.py")
-execfile("config_general_local.py")
-execfile("config_credentials_local.py")
+execfile("config_general.local.py")
+execfile("config_credentials.local.py")
 
 ## display title
 display_title()
